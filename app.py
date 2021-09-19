@@ -19,7 +19,7 @@ def load_data(t):
     df = pd.DataFrame(data_monthly['Monthly Time Series'])
     return df
 
-y_options = ['1. open', '4. close', '3. low', '3. high', '5. volume']
+y_options = ['1. open', '4. close', '3. low', '2. high', '5. volume']
 
 # Allow use to choose
 y_axis = st.sidebar.selectbox('Which value do you want to explore', y_options)
