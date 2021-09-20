@@ -5,15 +5,16 @@
 
 
 import requests
+import os
 import streamlit as st
 import pandas as pd
 import numpy as np
 import plotly.express as px
 
+keycode = os.getenv('API_KEY')
 
-#@st.cache()
 def load_data(t):
-    url = 'https://www.alphavantage.co/query?function=TIME_SERIES_MONTHLY&symbol=' + t + '&apikey=VW9MMPY6I13TVX8J'
+    url = 'https://www.alphavantage.co/query?function=TIME_SERIES_MONTHLY&symbol=' + t + '&apikey=' + keycode
     r = requests.get(url)
     data_monthly = r.json()
     df = pd.DataFrame(data_monthly['Monthly Time Series'])
