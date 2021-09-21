@@ -8,7 +8,9 @@ This repository is a clone of a repository containing a basic template for a Str
 work on Heroku, which was provided by the teaching TDI staff/team.
 
 The finished app can be found at the follwing link (https://whispering-mountain-96051.herokuapp.com/). User can choose to look at closing, opening, high, low prices
-of a stock ticker for a month in the year 2021. User can also look at the change in the trading volume and percentage log return over a month of choosing.   
+of a stock ticker for a month in the year 2021. User can also look at the change in the trading volume and percentage log return over a month of choosing.
+
+The steps and tools used to develop the app are described beloww.
 
 ## Step 1: Setup and deploy
 - Git clone the existing template repository.
