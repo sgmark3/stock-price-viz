@@ -4,10 +4,11 @@ This project is intended to help you tie together some important concepts and
 technologies from the 12-day course, including Git, Streamlit, JSON, Pandas,
 Requests, Heroku, and Bokeh for visualization.
 
-The repository contains a basic template for a Streamlit configuration that will
-work on Heroku.
+This repository is a clone of a repository containing a basic template for a Streamlit configuration that will
+work on Heroku, which was provided by the teaching TDI staff/team.
 
-A [finished example](https://streamlit-12day-example.herokuapp.com/) that demonstrates some basic functionality.
+The finished app can be found at the follwing link (https://whispering-mountain-96051.herokuapp.com/). User can choose to look at closing, opening, high, low prices
+of a stock ticker for a month in the year 2021. User can also look at the change in the trading volume and percentage log return over a month of choosing.   
 
 ## Step 1: Setup and deploy
 - Git clone the existing template repository.
