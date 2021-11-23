@@ -28,7 +28,7 @@ ticker = st.text_input('Enter stock name here','MSFT')
 
 Year = st.text_input('Year','2021')
 
-Month = st.text_input('Month','5')
+Month = st.text_input('Month','10')
 
 y_options = ['4. close', '1. open', '3. low', '2. high', '5. volume', 'one_day_return']
 
