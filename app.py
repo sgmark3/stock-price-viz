@@ -30,7 +30,7 @@ Year = st.text_input('Year','2021')
 
 Month = st.text_input('Month','10')
 
-y_options = ['4. close', '1. open', '3. low', '2. high', '5. volume', 'one_day_return']
+y_options = ['4. close', '1. open', '3. low', '2. high', '5. volume', '6. one_day_return']
 
 y_axis = st.sidebar.selectbox('Which value do you want to explore', y_options)
 
@@ -50,7 +50,7 @@ dff['dates'] = dfm.index
 returns = round(np.log(dff['4. close']).diff()*100,2)
 returns.dropna(inplace = True)
 
-d1 = {'dates':list(dfm.index)[1:], 'one_day_return':returns}
+d1 = {'dates':list(dfm.index)[1:], '6. one_day_return':returns}
 
 dr = pd.DataFrame(data=d1)
 
