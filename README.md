@@ -7,7 +7,7 @@ Requests, Heroku, and Bokeh for visualization.
 This repository is a clone of a repository containing a basic template for a Streamlit configuration that will
 work on Heroku, which was provided by the teaching TDI staff/team.
 
-The finished app can be found at the follwing link (https://whispering-mountain-96051.herokuapp.com/). User can choose to look at closing, opening, high, low prices
+The finished app can be found at the follwing link (https://mighty-citadel-88811.herokuapp.com/). User can choose to look at closing, opening, high, low prices
 of a stock ticker for a month in the year 2021. User can also look at the change in the trading volume and percentage log return over a month of choosing. Note that the year and the months for which the data available is limited. So, use only 05-2021 to 08-2021. 
 
 The steps and tools used to develop the app are described below.
