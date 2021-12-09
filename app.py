@@ -21,7 +21,7 @@ def load_data(t):
 ticker = st.text_input('Enter stock name here','MSFT')
 
 y_options = ['Opening price', 'High', 'Low', 'Closing price', 'Volume']
-             #'6. One day return']
+
 y_axis = st.sidebar.selectbox('Which value do you want to explore', y_options)
 
 df = load_data(ticker)
